@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BridgePattern.Abstraction.AbstractBusiness" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Bridge Pattern\Abstraction\AbstractBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BridgePattern.Abstraction.RefinedBusiness" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bridge Pattern\Abstraction\RefinedBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BridgePattern.Implementor.ComputerSale" Collapsed="true">
+    <Position X="2.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bridge Pattern\Implementor\ComputerSale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BridgePattern.Implementor.Sale" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bridge Pattern\Implementor\Sale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BridgePattern.Implementor.VehicleSale" Collapsed="true">
+    <Position X="5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bridge Pattern\Implementor\VehicleSale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Builder.ComputerBuilder" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAQAAAgAAAAADIAAgAIEAAAABAABAAAAAIAAAA=</HashCode>
+      <FileName>Builder Pattern\Builder\ComputerBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Builder.CarBuilder" Collapsed="true">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACIQAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Builder Pattern\Builder\Concrete Builder\Vehicles\CarBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Builder.MotorCycleBuilder" Collapsed="true">
+    <Position X="5.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACIQAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Builder Pattern\Builder\Concrete Builder\Vehicles\MotorCycleBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Builder.ScooterBuilder" Collapsed="true">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACIQAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Builder Pattern\Builder\Concrete Builder\Vehicles\ScooterBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Builder.VehicleBuilder" Collapsed="true">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACIQABAAAAAQAAAAAAgAAAAA=</HashCode>
+      <FileName>Builder Pattern\Builder\VehicleBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Builder.Concrete_Builder.Computers.DesktopBuilder" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAQAAAgAAAAADIAAgAIAAAAAAAABAAAAAIAAAA=</HashCode>
+      <FileName>Builder Pattern\Builder\Concrete Builder\Computers\DesktopBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Builder.Concrete_Builder.Computers.LaptopBuilder" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAQAAAgAAAAADIAAgAIAAAAAAAABAAAAAIAAAA=</HashCode>
+      <FileName>Builder Pattern\Builder\Concrete Builder\Computers\LaptopBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Builder.Concrete_Builder.Computers.TabletBuilder" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAQAAAgAAAAADIAAgAIAAAAAAAABAAAAAIAAAA=</HashCode>
+      <FileName>Builder Pattern\Builder\Concrete Builder\Computers\TabletBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.ComputerShop" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder Pattern\Director\ComputerShop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.VehicleShop" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder Pattern\Director\VehicleShop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Product.Computer" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAgACAAAAAAAAAAEAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Builder Pattern\Product\Computer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Product.Vehicle" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAgACAAAAAAAAAAEAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Builder Pattern\Product\Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Product.Vehicle2" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgACAAAAAAAAAAEAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Builder Pattern\Product\Vehicle2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Handler.Concrete_Handler.CompactView" Collapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>COR Pattern\Handler\Concrete Handler\CompactView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Handler.Concrete_Handler.LargeView" Collapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>COR Pattern\Handler\Concrete Handler\LargeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Handler.Concrete_Handler.MediumView" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>COR Pattern\Handler\Concrete Handler\MediumView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderPattern.Handler.View" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAABAEAAAAAAAA=</HashCode>
+      <FileName>COR Pattern\Handler\View.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

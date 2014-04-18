@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D4337F1-7B54-4807-AB52-BEF43B4A8B4A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BuilderPattern</RootNamespace>
+    <AssemblyName>BuilderPattern</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Builder Pattern\Builder\ComputerBuilder.cs" />
+    <Compile Include="Builder Pattern\Builder\Concrete Builder\Computers\DesktopBuilder.cs" />
+    <Compile Include="Builder Pattern\Builder\Concrete Builder\Computers\LaptopBuilder.cs" />
+    <Compile Include="Builder Pattern\Builder\Concrete Builder\Computers\TabletBuilder.cs" />
+    <Compile Include="Builder Pattern\Builder\Concrete Builder\Vehicles\CarBuilder.cs" />
+    <Compile Include="Builder Pattern\Builder\Concrete Builder\Vehicles\MotorCycleBuilder.cs" />
+    <Compile Include="Builder Pattern\Builder\Concrete Builder\Vehicles\ScooterBuilder.cs" />
+    <Compile Include="Builder Pattern\Builder\VehicleBuilder.cs" />
+    <Compile Include="Bridge Pattern\Abstraction\AbstractBusiness.cs" />
+    <Compile Include="Bridge Pattern\Abstraction\StoreAProduction.cs" />
+    <Compile Include="Builder Pattern\Director\ComputerDirector.cs" />
+    <Compile Include="Builder Pattern\Product\ProductData.cs" />
+    <Compile Include="COR Pattern\Handler\Concrete Handler\MediumView.cs" />
+    <Compile Include="COR Pattern\Handler\Concrete Handler\LargeView.cs" />
+    <Compile Include="COR Pattern\Handler\View.cs" />
+    <Compile Include="COR Pattern\Handler\Concrete Handler\CompactView.cs" />
+    <Compile Include="Bridge Pattern\Implementor\VehicleProduct.cs" />
+    <Compile Include="Bridge Pattern\Implementor\ComputerProduct.cs" />
+    <Compile Include="Bridge Pattern\Implementor\Product.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Builder Pattern\Director\VehicleDirector.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
